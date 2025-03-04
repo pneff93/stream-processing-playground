@@ -1,0 +1,25 @@
+{
+  "name": "SensorDataTransformed",
+  "type": "record",
+  "namespace": "com.kafkaStreamsExample",
+  "fields": [
+    {
+      "name": "sensorId",
+      "type": "string"
+    },
+    {
+        "name": "check",
+        "type": {
+            "type": "map",
+            "values": "string"
+        }
+    },
+    {
+      "name": "timestamp",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  ]
+}
