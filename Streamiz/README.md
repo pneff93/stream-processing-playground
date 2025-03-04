@@ -1,3 +1,7 @@
+# About Streamiz
+
+[Streamiz](https://github.com/LGouellec/streamiz) is a .NET stream processing library for Apache Kafka. As Kafka Streams does, Streamiz is easily installed as a dependency in your project.
+
 # Install dotnet 8
 
 https://dotnet.microsoft.com/en-us/download
